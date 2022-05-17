@@ -1,5 +1,4 @@
 FROM php:7.1-fpm-jessie
-MAINTAINER PHPtoday.ru <info@phptoday.ru>
 
 RUN apt-get update && apt-get install -y \
         curl \
